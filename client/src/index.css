@@ -1,0 +1,1211 @@
+.adminmain{
+  margin: 0;
+  padding: 0;
+  background-image: url('1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.admin{
+  
+  width: 27rem;
+}
+.user{
+  margin-top: 20rem;
+}
+.user,
+.password {
+  
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 3px dashed #ff4500;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #ffe4e1;
+}
+
+.sub {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff4500;
+  color: white;
+  border: 2px solid #ff4500;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.sub:hover {
+  background-color: #ff6347;
+  border-color: #ff6347;
+}
+.Adminnav{
+  display: flex;
+  justify-content: space-between;
+  background-color: orangered;
+  height: 4rem;
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+li{
+  margin-left: 6rem;
+  font-size: 140%;
+  margin-right: 4rem;
+}
+a {
+  text-decoration: none;
+  color: grey; 
+}
+
+a:hover {
+  color: black; 
+}
+.log{
+  font-size: 140%;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.dat{
+  
+  font-size: 130%;
+  color: white;
+}
+.adminmain .sub{
+  width: 25rem;
+}
+.restdata{
+  display: flex;
+  height: 10rem;
+  justify-content: space-around;
+  margin-top: 5rem;
+  border: 0.3rem solid orangered;
+  background-color: pink;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn button {
+  margin-top: 1rem;
+}
+.btn1,.btn2{
+  width: 6rem;
+  font-size: 120%;
+  background-color: #ff6347;
+  border-radius: 2rem;
+}
+.log h2{
+  margin-top: -0.7rem;
+}
+.restmain{
+  margin: 0;
+  padding: 0;
+  background-image: url('1.jpg');
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.dat {
+  max-width: 100%; /* Set to 100% to take up the full screen */
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dat header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.dat main {
+  padding: 20px;
+}
+
+.dat section {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.dat h1,
+.dat h2 {
+  color: #333;
+}
+
+.dat p {
+  color: #666;
+}
+
+/* RegisterRestaurant.css */
+
+.registration-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: linear-gradient(135deg, #e74c3c, #f39c12);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.registration-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.registration-form button {
+  background-color: #3498db;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: #2980b9;
+}
+
+/* LoginRestaurant.css */
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: linear-gradient(135deg, #3498db, #8e44ad);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  background-color: #2ecc71;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #27ae60;
+}
+.restaurant-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.restaurant-details:hover {
+  background-color: #e0e0e0;
+}
+
+.restaurant-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.restaurant-image:hover {
+  transform: scale(1.1);
+}
+
+.restaurant-name,
+.owner-name,
+.location,
+.contact,
+.email {
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.restaurant-name:hover,
+.owner-name:hover,
+.location:hover,
+.contact:hover,
+.email:hover {
+  background-color: #f0f0f0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: linear-gradient(135deg, #e0e0e0, #f4f4f4); /* 3D gradient background */
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  object-fit: cover;
+  border-radius: 50%; /* To make the image round, adjust or remove as needed */
+  margin-right: 10px;
+}
+
+.details-container {
+  flex-grow: 1;
+}
+
+.menu-item h2, h3 {
+  margin: 0;
+  color: #333;
+}
+
+.menu-item h2 {
+  font-size: 18px;
+}
+
+.menu-item h3 {
+  font-size: 14px;
+}
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+button {
+  margin-top: 10px; /* Adjust as needed */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50; /* Green background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+/* Add this CSS to your stylesheet or style section */
+
+.add-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.add-button {
+  font-size: 24px;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #219653;
+}
+/* AddForm.css */
+.add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-form button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-form button:hover {
+  background-color: #45a049;
+}
+
+/* YourComponent.css */
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.benefits-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.benefits-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.main-heading {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.sub-heading {
+  color: #4caf50;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.benefits-list p {
+  margin-bottom: 10px;
+  line-height: 1.4;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.benefits-list p:hover {
+  color: #333;
+}
+.Mainpage{
+  display: flex;
+  justify-content: space-between;
+  background-color: orangered;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+/* CustomRegister.css */
+.custom-register-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.custom-register-container:hover {
+  background-color: #ff5722;
+}
+
+.custom-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.custom-input-container input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.custom-input-container button {
+  padding: 10px;
+  background-color: #fff;
+  color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-input-container button:hover {
+  background-color: #4caf50;
+  color: #fff;
+}
+/* Login.css */
+.login-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #2196f3;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.login-container:hover {
+  background-color: #1565c0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.login-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  padding: 10px;
+  background-color: #fff;
+  color: #2196f3;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
+/* Navigation.css */
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(45deg, #2196f3, #1565c0);
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logout-section h4 {
+  margin: 0;
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.logout-section h4:hover {
+  color: #ffd700; /* Change the color to your desired 3D effect color */
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.menu-section li {
+  cursor: pointer;
+  font-size: 20px;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.menu-section li.cart {
+  background-image: url('cart.jpg'); /* Add your cart icon image path */
+  background-repeat: no-repeat;
+  background-size: 20px; /* Adjust the size as needed */
+  background-position: left center;
+  padding-left: 30px; /* Add padding to adjust the space between the image and text */
+}
+
+.menu-section li.profile {
+  background-image: url('profile.jpg'); /* Add your profile icon image path */
+  background-repeat: no-repeat;
+  background-size: 20px; /* Adjust the size as needed */
+  background-position: left center;
+  padding-left: 30px; /* Add padding to adjust the space between the image and text */
+}
+
+.menu-section li:hover {
+  color: #ffd700; /* Change the color to your desired 3D effect color */
+}
+/* Your CSS file */
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  perspective: 800px;
+}
+
+.profile-image {
+  margin-right: 20px;
+  transform-style: preserve-3d;
+  transform: rotateY(20deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-image img {
+  width: 120px; /* Increase the image size */
+  height: 120px; /* Increase the image size */
+  border-radius: 50%;
+  transform: translateZ(50px);
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e74c3c; /* Change to a vibrant color */
+  padding: 20px; /* Increase padding for better visual */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.profile-details h2,
+.profile-details h3 {
+  margin: 10px 0; /* Increase the margin */
+  color: #fff;
+  font-size: 18px; /* Increase the font size */
+}
+
+/* Hover effect for 3D rotation */
+.profile-container:hover .profile-image {
+  transform: rotateY(0deg);
+}
+/* Your CSS file */
+
+.restaurant-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 20px;
+  background: linear-gradient(45deg, #ff6b6b, #6b6bff);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transform: perspective(800px) rotateX(10deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.restaurant-image-container {
+  /* Add specific styling for the image container if needed */
+}
+
+.restaurant-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.restaurant-details-container {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.restaurant-name {
+  font-size: 24px;
+  color: #222; /* Darker text color */
+}
+
+.location,
+.contact,
+.email {
+  font-size: 18px;
+  color: #333; /* Darker text color */
+}
+
+/* Hover effect for 3D rotation */
+.restaurant-card:hover {
+  transform: perspective(800px) rotateX(0deg);
+}
+.food-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #3498db;
+  padding: 20px;
+  background: linear-gradient(45deg, #3498db, #e74c3c);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.image-container img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.text-container {
+  margin-left: 20px;
+  color: #fff;
+}
+
+.cart-button-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cart-button-container button:hover {
+  background-color: #27ae60;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.cart-item:hover {
+  transform: translateY(-5px);
+}
+
+.image-container img {
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 8px;
+}
+
+.item-details {
+  flex-grow: 1;
+  padding: 0 15px;
+}
+
+.quantity-controls {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center;
+  margin-top: 10px; /* Add some space between the quantity controls and item details */
+}
+
+.decrement-btn,
+.increment-btn,
+.remove-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-bottom: 5px; /* Add space between buttons */
+}
+
+.decrement-btn:hover,
+.increment-btn:hover,
+.remove-btn:hover {
+  background-color: #c0392b;
+}
+
+.item-count {
+  margin: 0 10px;
+  font-size: 16px;
+}
+.remove-btn{
+  background-color: #1565c0;
+}
+.increment-btn{
+  background-color: #2ecc71;
+}
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #2980b9;
+  }
+}
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.item-container:hover {
+  transform: scale(1.05);
+  background-color: #d1d1d1;
+}
+
+.item-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h2 {
+  margin: 0;
+  color: #333;
+}
+
+.item-details h3 {
+  margin: 5px 0;
+  color: #555;
+}
+
+.add-review-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-review-button:hover {
+  background-color: #45a049;
+}
+.orders-container {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.review-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.rating-input,
+.comment-input,
+.submit-button {
+  margin: 8px; /* Adjust the margin as needed */
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+.restdata{
+  height: 12rem;
+}
+/* AdminReviews.css */
+
+.reviews-container {
+  padding: 20px;
+}
+
+.heading {
+  color: #333;
+  font-size: 28px;
+}
+
+.review-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.profile-image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 2px solid #3498db; /* Add border color */
+}
+
+.review-details {
+  flex: 1;
+}
+
+.restaurant-name, .food-name {
+  color: #e74c3c; /* Restaurant and Food names color */
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.rating {
+  color: #f39c12; /* Rating color */
+  font-size: 18px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.comments {
+  color: #2ecc71; /* Comments color */
+  font-size: 16px;
+  margin: 5px 0;
+}
+.reviews-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reviews-heading h2 {
+  color: #333;
+  font-size: 28px;
+  background-color: #2196f3;
+}
+/* YourComponent.css */
+
+.item-container {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f7f7f7; /* Light gray background color */
+}
+
+.image-container {
+  flex: 1;
+  max-width: 150px;
+  background-color: #e0e0e0; /* Lighter gray background color for the image container */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text-container {
+  flex: 2;
+  padding: 0 15px;
+}
+
+.text-container h2 {
+  margin: 5px 0;
+}
+/* Restrev.css */
+
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.review-item {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #e6f7ff; /* Light blue background color */
+}
+
+.image-container {
+  flex: 1;
+  max-width: 150px;
+  background-color: #b3e0ff; /* Lighter blue background color for the image container */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text-container {
+  flex: 2;
+  padding: 0 15px;
+}
+
+.text-container h2 {
+  margin: 5px 0;
+  color: #333; /* Dark text color */
+}
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f4f4f4; /* Soft background color */
+  padding: 20px; /* Optional: Add padding to the container */
+}
+
+.recdiv {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  height: 300px;
+  background-color: #fff; /* Background color for each item */
+}
+
+.recimg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.rechead {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Optional: Hover effect */
+.recdiv:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.or {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f4f4f4; /* Soft background color */
+  border-radius: 8px;
+}
+@media only screen and (max-width: 767px) {
+  .admin,
+  .user,
+  .password,
+  .sub,
+  .dat,
+  .adminmain .sub,
+  .restdata,
+  .btn,
+  .btn button,
+  .log h2,
+  .dat,
+  .recdiv,
+  .or {
+    width: 100%;
+  }
+
+  .Adminnav ul,
+  .dat header,
+  .dat main,
+  .dat section,
+  .dat h1,
+  .dat h2,
+  .dat p,
+  .registration-container,
+  .login-container,
+  .restaurant-details,
+  .add-button-container,
+  .custom-register-container,
+  .custom-input-container,
+  .login-input-container,
+  .navigation-container,
+  .profile-container,
+  .restaurant-card,
+  .food-container,
+  .cart-item,
+  .payment-container,
+  .item-container,
+  .reviews-container,
+  .review-item,
+  .all,
+  .recdiv,
+  .or {
+    margin: 10px;
+  }
+
+  .dat,
+  .registration-container,
+  .login-container,
+  .restaurant-details,
+  .custom-register-container,
+  .custom-input-container,
+  .login-input-container,
+  .navigation-container,
+  .profile-container,
+  .restaurant-card,
+  .food-container,
+  .cart-item,
+  .payment-container,
+  .item-container,
+  .reviews-container,
+  .review-item,
+  .all,
+  .recdiv,
+  .or {
+    padding: 10px;
+  }
+
+  .Adminnav li {
+    margin-left: 2rem;
+    font-size: 100%;
+    margin-right: 1rem;
+  }
+
+  .adminmain .sub,
+  .adminmain .sub {
+    width: 100%;
+  }
+
+  .adminmain .sub {
+    width: 100%;
+  }
+
+  .dat header {
+    padding: 10px;
+  }
+
+  .benefits-container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .item-container,
+  .recdiv {
+    width: calc(50% - 20px);
+  }
+
+  .Adminnav li {
+    margin-left: 1rem;
+    font-size: 90%;
+    margin-right: 0.5rem;
+  }
+
+  .login-form input,
+  .registration-form input,
+  .restaurant-details,
+  .custom-input-container input,
+  .login-input-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  .benefits-list p {
+    font-size: 14px;
+  }
+
+  .food-container,
+  .recdiv,
+  .restaurant-card,
+  .cart-item,
+  .item-container,
+  .review-item {
+    margin: 10px;
+    padding: 10px;
+  }
+}
